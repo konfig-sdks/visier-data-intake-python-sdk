@@ -1,0 +1,34 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from visier_data_intake_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from visier_data_intake_python_sdk.model.data_intake_push_data_request import DataIntakePushDataRequest
+from visier_data_intake_python_sdk.model.data_transfer_result_detail import DataTransferResultDetail
+from visier_data_intake_python_sdk.model.data_transfer_result_detail_source_names import DataTransferResultDetailSourceNames
+from visier_data_intake_python_sdk.model.data_upload_file_to_visier_request import DataUploadFileToVisierRequest
+from visier_data_intake_python_sdk.model.get_processing_jobs_response import GetProcessingJobsResponse
+from visier_data_intake_python_sdk.model.google_protobuf_any import GoogleProtobufAny
+from visier_data_intake_python_sdk.model.job import Job
+from visier_data_intake_python_sdk.model.processing_job import ProcessingJob
+from visier_data_intake_python_sdk.model.push_data_cancel_response import PushDataCancelResponse
+from visier_data_intake_python_sdk.model.push_data_column_definition_dto import PushDataColumnDefinitionDTO
+from visier_data_intake_python_sdk.model.push_data_column_definition_dto_data_formats import PushDataColumnDefinitionDTODataFormats
+from visier_data_intake_python_sdk.model.push_data_complete_request import PushDataCompleteRequest
+from visier_data_intake_python_sdk.model.push_data_complete_response import PushDataCompleteResponse
+from visier_data_intake_python_sdk.model.push_data_response import PushDataResponse
+from visier_data_intake_python_sdk.model.push_data_source_definition_dto import PushDataSourceDefinitionDTO
+from visier_data_intake_python_sdk.model.push_data_source_definitions_dto import PushDataSourceDefinitionsDTO
+from visier_data_intake_python_sdk.model.receiving_job_status_response import ReceivingJobStatusResponse
+from visier_data_intake_python_sdk.model.source import Source
+from visier_data_intake_python_sdk.model.start_transfer_response import StartTransferResponse
+from visier_data_intake_python_sdk.model.status import Status
+from visier_data_intake_python_sdk.model.tenant import Tenant
